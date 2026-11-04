@@ -1,7 +1,6 @@
 body {
   background-color: pink;
-  font-family: "Roboco", sans-serif;
-}
+  font-family: "Atkinson Hyperlegible Mono", sans-serif; 
 h1 {
   color: purple;
   text-align: center;
@@ -19,23 +18,76 @@ button{
   color: RGB(0, 120, 200, 0.6);
   text-align: left;
   font-size: 150%;
+  width: 400px;
+  height: 60px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 120, 200);
 }
 .story {
   color:rgb(90, 132, 90);
   text-align: left;
   font-size: 150%;
+  width: 400px;
+  height: 60px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 2px solid rgb(90, 132, 90);
 }
 .goal {
   color: RGB(150, 90, 40, 0.6);
   text-align: left;
   font-size: 150%;
+  width: 400px;
+  height: 60px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 2px solid rgb(150, 90, 40);
+
 }
 h2 {
   color: rgb(255, 140, 0);
   text-align: left;
   font-size: 150%;
+  width: 400px;
+  height: 60px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 140, 0);
 }
 hr {
   border: 5px solid blue;
   margin: 20px 0;
+}
+nav a {
+  color: rgb(71, 5, 87);
+  text-decoration: none;
+  margin: 10px;
+}
+nav a:hover {
+  color: white;
+  background-color: rgb(71, 5, 87);
+}
+button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+img:hover {
+  border: 3px solid purple;
+}
+p {
+  line-height: 1.5;
+}
+.salon-background {
+  background-image: url('../Images/salon.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(137, 13, 77);
+  padding: 150px;
 }
