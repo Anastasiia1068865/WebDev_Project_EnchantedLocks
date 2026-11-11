@@ -1,6 +1,9 @@
 body {
   background-color: pink;
-  font-family: "Atkinson Hyperlegible Mono", sans-serif; 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
 h1 {
   color: purple;
   text-align: center;
@@ -85,9 +88,15 @@ p {
   line-height: 1.5;
 }
 .salon-background {
-  background-image: url('../Images/salon.jpg');
-  background-size: cover;
-  background-position: center;
-  color: rgb(137, 13, 77);
-  padding: 150px;
+    background-image: url("../pexels-delbeautybox-211032-853427.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(202, 19, 99);
+    padding: 80px 20px;
+    text-align: center;
+}
+a:focus, button:focus {
+    outline: 3px solid black;
+    outline-offset: 3px;
 }
