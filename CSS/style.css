@@ -106,39 +106,39 @@ h1 p {
 .but {
   background-color: rgb(18, 0, 9);
 }
-
+/*flexbox to centre the nav buttons and add space between*/
 nav {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
-
+/*transition effect*/
 button {
   transition: background-color 0.4s;
 }
-
+/*media  for mobile dev*/
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightpink;
+    background-color: lightpink;/*changing back color on modile*/
   }
   nav {
-    flex-direction: column;
+    flex-direction: column;/*makes nav buttons be verticle*/
     align-items: center;
   }
   .team, .story, .goal, h2 {
-    width: 90%;
+    width: 90%;/*box width for small screens*/
   }
 }
-
+/*media for tablets*/
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .team, .story, .goal, h2 {
-    width: 70%;
+    width: 70%;/*sets box width to 70 for tablet screens*/
   }
 }
-
+/*media for desktop screens */
 @media only screen and (min-width: 1024px) {
   .team, .story, .goal, h2 {
-    width: 500px;
+    width: 500px;/*sets fixed 500px width on large desktop screens*/
   }
 }
 
