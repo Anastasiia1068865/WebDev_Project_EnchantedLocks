@@ -109,6 +109,7 @@ h1 p {
 .but {
   background-color: rgb(18, 0, 9);
 }
+
 nav {
   display: flex;
   justify-content: center;
@@ -143,3 +144,4 @@ button {
     width: 500px;
   }
 }
+
